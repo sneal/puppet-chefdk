@@ -1,6 +1,7 @@
 class chefdk {
         require homebrew
+	require homebrewcask
 
-        exec { 'brew install caskroom/cask/brew-cask': }
+        exec { 'brew cask install chefdk': }
 
 }
