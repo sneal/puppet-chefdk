@@ -1,5 +1,5 @@
 class chefdk (
-  $version = '0.7.0',
+  $version = '0.8.1',
   $patch_level = '1'
 ) {
   package { "chefdk-${version}-${patch_level}":
